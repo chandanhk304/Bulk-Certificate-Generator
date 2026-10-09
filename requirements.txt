@@ -1,0 +1,18 @@
+# Web framework + ASGI server
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+
+# Database ORM (SQLite driver ships with Python)
+SQLAlchemy==2.1.4
+
+# Validation & settings
+pydantic==2.14.0
+pydantic-settings==2.15.0
+email-validator==2.3.0
+
+# PDF certificate generation
+reportlab==5.0.1
+
+# Testing
+pytest==9.1.1
+httpx==0.28.1
